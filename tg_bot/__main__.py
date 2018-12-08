@@ -21,7 +21,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 Hello {}, my name is *{}*! I'm a group manager bot.
 
-You can find the list of available commands with /help. 
+You can find the list of available commands with /help.
 
 If you can't find answer to your question, if you want to submit a bug or a feature request - feel free to do it in @bot\_workshop group.
 
@@ -51,8 +51,11 @@ the things I can help you with.
 Other available commands:
 """.format("" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-DONATE_STRING = """
-You can send a donation to my current maintainers, @corsicanu and @nunopenim, via PayPal at paypal.me/corsicanu and/or paypal.me/nunopenim."""
+DONATE_STRING = """Heya, glad to hear you want to donate!
+It took lots of work for my creator to get me to where I am now, and every donation helps \
+motivate him to make me even better. All the donation money will go to a better VPS to host me, and/or beer \
+(see his bio!). He's just a poor student, so every little helps!
+There are two ways of paying him; [PayPal](paypal.me/PaulSonOfLars), or [Monzo](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
