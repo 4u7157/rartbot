@@ -38,9 +38,7 @@ RUN apk add --no-cache --update \
     postgresql-client \
     postgresql-dev \
     wget \
-    python \
     python3 \
-    python-dev \
     python3-dev \
     sqlite-dev \
     sudo \
